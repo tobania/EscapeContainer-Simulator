@@ -1,0 +1,14 @@
+version: '3.7'
+
+volumes:
+  mqttdata:
+
+services:
+  mqtt:
+    image: eclipse-mosquitto
+    restart: always
+    volumes:
+      - mqttdata:/mosquitto/data
+    ports:
+      - 1883:1883
+      - 9001:9001

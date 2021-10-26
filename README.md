@@ -8,7 +8,7 @@ Scripts to help simulate the communication between the session manager and the v
 2. Startup the MQTT Broker by executing the following command:
 
 ```ps1
-docker-compose -
+docker-compose up
 ```
 
 3. whether you need to simulate things for a challenge or a Actuator choose the correct file:

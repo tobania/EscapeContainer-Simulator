@@ -11,7 +11,13 @@ Scripts to help simulate the communication between the session manager and the v
 docker-compose up
 ```
 
-3. whether you need to simulate things for a challenge or a Actuator choose the correct file:
+3. Install all dependencies using Pip(3):
+
+```ps1
+pip3 install paho-mqtt
+```
+
+4. whether you need to simulate things for a challenge or a Actuator choose the correct file:
 
 - Actuator
 
@@ -23,4 +29,4 @@ docker-compose up
 python3 challenge-simulator.py
 ```
 
-4. Follow the instructions which are prompted by the script.
+5. Follow the instructions which are prompted by the script.
